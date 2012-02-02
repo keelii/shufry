@@ -25,7 +25,7 @@
 				<?php do_action( 'twentyeleven_credits' ); ?>
 				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'WordPress' ); ?></a>
 				<span>Simple desgined by <a title="普通端攻城湿" href="http://www.keelii.com">KILY</a>. </span>
-				<em>Best UE in chrome Mac</em>
+				<em>Best <abbr title="User Experience/用户体验">UE</abbr> in chrome Mac</em>
 			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->

@@ -135,6 +135,7 @@ footer.entry-meta { padding-bottom:20px; }
 .entry-meta a { margin-left:5px; }
 .entry-meta a:hover { color:#000; text-decoration:none; }
 .edit-link a { font-style:normal; color:#c96; }
+.entry-content h2 { font-size:18px; line-height:350%; color:#666; }
 .entry-content h3 { font-size:16px; line-height:300%; color:#000; }
 .entry-content h4 { font-size:14px; line-height:250%; color:#000; }
 .entry-content p,.entry-content div { margin-bottom:15px; }
