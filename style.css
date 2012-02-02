@@ -35,20 +35,20 @@ section, article, aside, header, footer, nav, dialog, figure { display: block; }
 
 /** global **/
 
-body { font:14px/180% arial, Helvetica, Tahoma, Georgia, "微软雅黑"; color:#333; background:url(images/bg-body.jpg) repeat; }
+body { font:14px/180% arial, Helvetica, Tahoma, Georgia, "微软雅黑"; color:#333; background:url(images/body-bg1.png) repeat; }
 a:hover { text-decoration:none; }
 .hentry a:hover { text-decoration:underline; }
 
 .home #nav-above,.home #nav-below { display:none; }
 #nav-above,#nav-below { padding-top:15px; }
 
-#branding,#main,#site-generator,.menu { width:1000px; margin:0 auto; }
+#branding,#main,#site-generator,.menu,.tip-for-ie { width:1000px; margin:0 auto; }
 
 /** header **/
-#branding { position:relative; height:100px; padding-top:50px; }
+#branding { position:relative; height:100px; padding-top:44px; }
 #access { background:rgba(51, 51, 51, 0.5); height:36px; border-bottom:2px solid rgba(51, 51, 51, 0.6); }
 #site-title { font-size:40px; }
-#site-title a { display:block;  width:175px; height:41px; text-indent:-9999px; overflow:hidden; background:url(images/logo.png) 0 0 no-repeat; color:#666; }
+#site-title a { display:block; font-family:STXihei,sans-serif; width:175px; height:41px; text-indent:-9999px; overflow:hidden; background:url(images/logo.png) 0 0 no-repeat; color:#666; }
 .weibo { position:absolute; bottom:-30px; right:0px; }
 
 #site-description { display:none; }
@@ -61,6 +61,10 @@ a:hover { text-decoration:none; }
 	-webkit-transition:background-color 0.5s linear;
 	-o-transition:background-color 0.5s linear;
 }
+
+.tip-for-ie { padding:10px; margin-top:10px; border:2px dashed #c96; background:#fff; }
+.tip-for-ie a { color:#c96; }
+.tip-for-ie a:hover { text-decoration:underline; }
 
 /** sidebar **/
 #primary { float:left; width:740px; }
@@ -79,6 +83,7 @@ a:hover { text-decoration:none; }
 .widget_recent_comments a { color:#000; }
 
 .textwidget a { color:#000; }
+.widget_recent_comments .comment_content { color:#666; }
 
 #searchform { position:absolute; right:0; top:50px; }
 .assistive-text,#searchsubmit,.sep,.author { display:none; }
@@ -116,7 +121,7 @@ input#s {
 /** article style **/
 .hentry { clear:both; }
 .hentry a { color:#999; }
-.hentry .entry-utility-prep { color:#333; font-family:'黑体' }
+.hentry .entry-utility-prep { color:#333; }
 .entry-content ul,.entry-content ol,.post blockquote { margin-bottom:15px; } 
 .entry-title,.entry-title a { color:#c96; font-size:18px; padding-top:15px; line-height:18px; }
 .entry-content { padding-top:15px; }
@@ -133,13 +138,15 @@ footer.entry-meta { padding-bottom:20px; }
 .entry-content h3 { font-size:16px; line-height:300%; color:#000; }
 .entry-content h4 { font-size:14px; line-height:250%; color:#000; }
 .entry-content p,.entry-content div { margin-bottom:15px; }
-.entry-content blockquote,.entry-content pre code { display:block; background:#fff url(images/code-bg.png) left top repeat-x; padding:5px 10px 0 10px; border-left:4px solid #a3d39c; overflow-x:auto; }
+.entry-content blockquote,.entry-content pre { display:block; background:#fff url(images/code-bg.png) left top repeat-x; padding:5px 10px 0 10px; border-left:4px solid #a3d39c; overflow-x:auto; }
+.entry-content pre p { margin:0; }
 
 .entry-content em { font-style:italic; }
 .entry-content strong { font-weight:bold; color:#000; }
 
-.entry-content blockquote, pre, code { font:12px/18px arial "微软雅黑"; color:#666; margin-bottom:15px;  }
-.entry-content blockquote p,.entry-content blockquote div { margin-bottom:0; }
+.entry-content code {  overflow-x:auto; }
+.entry-content blockquote, pre, code { font:12px/18px arial "微软雅黑"; color:#666; margin-bottom:15px; }
+.entry-content blockquote p,.entry-content blockquote div { margin-bottom:0; height:18px; line-height:18px; font-size:12px;  white-space:nowrap;}
 .entry-content li { font-size:12px; color:#666; }
 .entry-content ul li,.cat-item a { padding-left:0.8em;  background:url(images/list-icon.gif) left center no-repeat; }
 .widget .children li a { background-image:url(images/children-icon.gif); color:#666; }
@@ -209,4 +216,4 @@ border-bottom-left-radius: 05px;
 /** footer **/
 #colophon { margin-top:50px; border-top:1px solid rgba(51, 51, 51, 0.6); padding:10px 0 100px 0; }
 #colophon a { color:#999; }
-
+#site-generator em { font-style:italic; color:#999; font-size:12px; }

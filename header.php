@@ -58,6 +58,16 @@
 </head>
 
 <body <?php body_class(); ?>>
+<!--[if lt IE 9]>
+<div class="tip-for-ie">
+<p>抱歉！您正在使用IE9以下版本的浏览器，做为一名普通前端攻城湿我建议您使用
+<a href="http://www.google.cn/chrome/">chrome</a>,
+<a href="http://www.mozilla.org/">firefox</a>,
+<a href="http://www.apple.com.cn/safari/">safari</a>或
+<a href="http://www.opera.com/">opera</a>浏览本博客。
+</p>
+</div>	
+<![endif]-->
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
 			<hgroup>
