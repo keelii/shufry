@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Eleven package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-02-01 15:13+0830\n"
+"PO-Revision-Date: 2012-02-03 14:33+0830\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -445,7 +445,7 @@ msgstr "特色文章"
 
 #: showcase.php:153
 msgid "Recent Posts"
-msgstr "近期文章"
+msgstr "近文"
 
 #: sidebar.php:19
 msgid "Archives"
@@ -457,7 +457,7 @@ msgstr "功能"
 
 #: 404.php:28
 msgid "Most Used Categories"
-msgstr "常用分类目录"
+msgstr "文类"
 
 #: 404.php:36
 msgid "Try looking in the monthly archives. %1$s"
