@@ -45,6 +45,8 @@ get_header(); ?>
 
 			<?php endif; ?>
 
+			<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+
 			</div><!-- #content -->
 		</div><!-- #primary -->
 

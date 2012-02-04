@@ -154,6 +154,8 @@ footer.entry-meta { padding-bottom:20px; }
 .entry-content ul { padding:0 20px; }
 .entry-content li { font-size:12px; color:#666; }
 .entry-content ul li,.cat-item { padding-left:0.8em;  background:url(images/list-icon.gif) left center no-repeat; }
+.cat-item { color:#999; }
+.entry-content ul li a { color:#333; }
 .widget .children li a { background-image:url(images/children-icon.gif); color:#666; }
 .entry-content ol { margin-left:1.5em; }
 .entry-content ol li { list-style:decimal; }
