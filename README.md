@@ -19,10 +19,10 @@
 在主题样式表中设置隐藏了首页的分页链接「新文章、旧文章」。建议使用[wp-pagenavi](http://wordpress.org/extend/plugins/wp-pagenavi/)插件。
 
 ###4. 附加文件「可选」
-主题目录下的`extra-files`目录，将「comment-template.php\default-widget.php」两个文件覆盖WordPress根目录下wp-include中的相同文件。两个言包同样替换/wp-content/language目录下的文件即可。
+主题目录下的`extra-files`目录，将「comment-template.php\default-widget.php」两个文件覆盖WordPress根目录下wp-include中的相同文件。两个语言包同样替换/wp-content/language目录下的文件即可。
 
 ###5. 关于logo
-主题里是用图片「175*41」替换的，如须更换请注释掉主题中style.css第51行代码。
+主题里是用图片「175*41」替换的，如需更换请注释掉主题中style.css第51行代码。
 
 任何问题：[@keelii](weibo.com/keelii)
 
