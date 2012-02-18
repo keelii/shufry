@@ -24,5 +24,5 @@
 ###5. 关于logo
 主题里是用图片「175*41」替换的，如需更换请注释掉主题中style.css第51行代码。
 
-任何问题：[@keelii](weibo.com/keelii)
+任何问题：[@keelii](http://weibo.com/keelii)
 
