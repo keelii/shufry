@@ -1,4 +1,8 @@
 ##主题说明
+
+####0. 预览
+[<img src="http://www.keelii.com/wp-content/uploads/2012/02/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2012-02-03-%E4%B8%8B%E5%8D%882.15.32.png" width="500" alt="shufry"/>](http://www.keelii.com/wp-content/uploads/2012/02/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7-2012-02-03-%E4%B8%8B%E5%8D%882.15.32.png)
+
 ####1. 主题概述
 主题基于wordpress默认主题`twentyeleven`修改而来，自由下载学习。
 
